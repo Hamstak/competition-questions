@@ -1,5 +1,7 @@
 /**
  * Created by Tim on 3/8/16.
+ * Assumes non-repetition, although it doesn't matter except for edge cases where the rotated array is rotated -n and the array starts with 2 or more of the same number
+ * O(n)
  */
 public class Rotated {
     public static void main(String[] args) {
